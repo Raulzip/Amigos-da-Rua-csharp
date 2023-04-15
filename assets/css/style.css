@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600;700;800&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F7F3EA !important;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #F7F3EA;
+}
+
+
+.scrollprin {
+    height: calc(100vh - 56px);
+    margin-top: 56px;
+    overflow-y: auto;
+}
+
+.banner-introducao {
+    margin-top: 180px;
+}
+
+.div-banner{
+    background-color: #EAD3B2;
+}
+
+.svg-esquerdo {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: -120px;
+    top: -70px;
+    z-index: -1;
+
+}
+
+.svg-direito {
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    right: -100px;
+    top: 100px;
+    z-index: -1;
+
+}
+
+.svg-direito2 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: -20px;
+    top: 140px;
+    z-index: -1;
+
+}
+
+.svg-footer {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    left: -120px;
+    top: 00px;
+    z-index: -1;
+
+}
+
+.txt-titulos {
+    font-weight: 800;
+}
+
+.txt-introdutivo {
+    font-weight: 300;
+}
+
+.txt-conteudo {
+    font-weight: 400;
+
+}
+
+.imgBanner {
+    width: 38%;
+}
+
+.footer{
+    background-color:#262526;
+}
+
+#imgDog {
+    border-radius: 100px 100px 0px 0px;
+}
+
+#imgCat {
+    border-radius: 0px 0px 100px 100px;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #AF7357;
+    border-radius: 8px;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #9b674f;
+}

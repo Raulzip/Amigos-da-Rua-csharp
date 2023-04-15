@@ -1,12 +1,122 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="pt-br ">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;700;800&display=swap"
+        rel="stylesheet">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
+
 <body>
-    
+
+
+    <!-- navbar -->
+
+    <nav id="nabarzinho" class="navbar navbar-expand-sm shadow fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" aria-current="page" href="#">HOME</a>
+                    </li>
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" href="#">PETS</a>
+                    </li>
+
+                    <li class="nav-item ms-5 me-5">
+                        <a class="nav-link active text-center" href="#">SOBRE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <div id="scrollPrin" class="scrollprin">
+        <div class="container">
+
+            <div class="banner-introducao mb-5 ">
+                <h1 class="txt-titulos">Seja Bem Vindo!</h1>
+                <p class="txt-introdutivo col-md-6">Nossa home page de adoção de pets!
+                    Aqui você pode encontrar animais de estimação adoráveis disponíveis
+                    para adoção, recursos educacionais sobre adoção responsável
+                    e opções de doação para apoiar nossa missão. Descubra como ajudar
+                    um animal de estimação a encontrar um lar amoroso hoje! </p>
+                <div class="input col-md-6">
+                    <input class="form-control border rounded-5 " type="search" placeholder="🔎 Pesquise Aqui!...">
+                </div>
+
+
+            </div>
+
+            <div class=" div-banner border rounded-5 d-flex ">
+                <div class="row">
+                    <div class="col text-center my-5 ">
+                        <img id="imgDog" class="img-fluid imgBanner mx-5" src="/assets/img/HOME/dog-div.jpg" alt="">
+                        <img id="imgCat" class="img-fluid imgBanner" src="/assets/img/HOME/cat-div.jpg" alt="">
+                    </div>
+                    <div class="col m-5 text-end ">
+                        <h1 class="txt-titulos">Encontre seu amigo!</h1>
+                        <h2 class="txt-outro-titulo"> Amigos da Rua</h2>
+                        <p class="txt-introdutivo">O processo é simples e gratuito.
+                            Basta preencher algumas informações básicas e começar
+                            a navegar pelos perfis dos animais disponíveis para adoção.
+                            Cadastre-se agora!</p>
+                        <button type="button" class="btn border rounded-5 bg-white">Cadastrar-se</button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer row w-100 text-white text-center ">
+            <div class="col-md-6">
+                <section>
+                    <a href="#" class="link-light text-decoration-none">HOME</a>
+                    <a href="#" class="link-light text-decoration-none">PETS</a>
+                    <a href="#" class="link-light text-decoration-none">SOBRE</a>
+
+                </section>
+            </div>
+            <div class="col-md-6">
+                <section>
+                    <a><i class="bi bi-facebook"></i></a>
+                    <a><i class="bi bi-instagram"></i></a>
+                    <a><i class="bi bi-whatsapp"></i></a>
+                </section>
+            </div>
+
+        </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
 </body>
+
 </html>
