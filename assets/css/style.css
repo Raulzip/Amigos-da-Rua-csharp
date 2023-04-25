@@ -34,38 +34,8 @@ a {
     margin-top: 180px;
 }
 
-.div-banner{
+.div-banner {
     background-color: #EAD3B2;
-}
-
-.svg-esquerdo {
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    left: -120px;
-    top: -70px;
-    z-index: -1;
-
-}
-
-.svg-direito {
-    width: 430px;
-    height: 430px;
-    position: absolute;
-    right: -100px;
-    top: 100px;
-    z-index: -1;
-
-}
-
-.svg-direito2 {
-    width: 450px;
-    height: 450px;
-    position: absolute;
-    right: -20px;
-    top: 140px;
-    z-index: -1;
-
 }
 
 .svg-footer {
@@ -95,8 +65,17 @@ a {
     width: 38%;
 }
 
-.footer{
-    background-color:#262526;
+.footer {
+    background-color: #262526;
+}
+
+.div-img-register {
+    width: 37%;
+    left: -5.2vw;
+    border-top-left-radius: 25%;
+    max-width: 280px;
+    border-top-right-radius: 25%;
+    background-color: #D9A273;
 }
 
 #imgDog {
@@ -126,3 +105,33 @@ a {
 ::-webkit-scrollbar-thumb:hover {
     background: #9b674f;
 }
+
+/* .svg-esquerdo {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    left: -120px;
+    top: -70px;
+    z-index: -1;
+
+}
+
+.svg-direito {
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    right: -100px;
+    top: 100px;
+    z-index: -1;
+
+}
+
+.svg-direito2 {
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    right: -20px;
+    top: 140px;
+    z-index: -1;
+
+} */
