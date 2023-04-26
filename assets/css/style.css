@@ -2,8 +2,8 @@
 
 
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -23,7 +23,8 @@ a {
 
 
 .banner-introducao {
-    margin-top: 180px;
+    margin: 10% 0% 5%;
+
 }
 
 .div-banner {
@@ -38,13 +39,17 @@ a {
     font-weight: 300;
 }
 
+#textoIntro {
+    padding-top: 13%;
+}
+
 .txt-conteudo {
     font-weight: 400;
 
 }
 
 .imgBanner {
-    width: 38%;
+    width: 200px;
 }
 
 
