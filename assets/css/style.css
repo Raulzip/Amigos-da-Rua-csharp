@@ -26,7 +26,8 @@ a {
     margin: 10% 0% 5%;
 
 }
-.banner-final{
+
+.banner-final {
     margin: 10% 0% 0%;
 }
 
@@ -55,18 +56,23 @@ a {
     width: 200px;
 }
 
+.icon::before{
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 1200px) {
-    .imgBanner{
+    .imgBanner {
         width: 180px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .imgBanner{
+    .imgBanner {
         width: 200px;
     }
-   
+
 }
+
 .div-img-register {
     width: 37%;
     left: -5.2vw;
@@ -76,13 +82,12 @@ a {
     background-color: #D9A273;
 }
 
-.footer {
-    bottom: 0;
-    position: relative;
-    height: 60px;
-    width: 100%;
+footer {
     background-color: #262526;
-}
+    min-height: 50px;
+    padding: 18px;
+    align-items: center !important ;
+} 
 
 .scrollprin {
     height: calc(100vh - 56px);
