@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav id="nabarzinho" class="navbar navbar-expand-sm shadow fixed-top">
+    <nav id="nabarzinho" class="navbar navbar-expand-sm shadow absolute-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -45,26 +45,89 @@
         </div>
     </nav>
 
-    <main>
+    <main class="container">
+
+        <section id="textoIntro" class="row">
+            <div class="text-start  col-md-7">
+                <h1 class="txt-titulos">Sobre nós</h1>
+
+                <p class="txt-introdutivo">Nós somos os Amigos da Rua, uma instituição dedicada a dar amor e um lar para
+                    os animais de rua.
+                    Nosso objetivo é proporcionar um ambiente seguro e acolhedor para os nossos amigos de quatro patas
+                    enquanto encontramos a família perfeita para eles.
+                </p>
+            </div>
+
+            <div class="col-md-3 d-none d-md-block">
+                <img class="img-fluid" src="../assets/img/SOBRE/blob-part1.png">
+            </div>
+
+        </section>
+
+
+
+        <section id="textoIntro" class="text-end row ">
+
+            <div class="col-md-4 d-none d-md-block">
+                    <img class="img-fluid" src="../assets/img/SOBRE/blob-part2.png">
+                </div>
+
+
+            <div class="col-md-8">
+                <h1 class="txt-titulos">Cuidados e Parceiria</h1>
+
+                <p class="txt-introdutivo">Na Amigos da Rua, temos uma equipe dedicada de voluntários que trabalham
+                    incansavelmente para cuidar
+                    e
+                    encontrar lares amorosos para nossos animais resgatados.
+                    Todos os nossos animais recebem os cuidados necessários para garantir que estejam saudáveis e
+                    felizes,
+                    e trabalhamos em parceria com nossos adotantes para garantir que eles recebam o amor e o carinho que
+                    merecem.</p>
+            </div>
+        </section>
+
+        <section id="textoIntro" class="row">
+           <div class="text-start col-8 mb-5"> <h1 class="txt-titulos">Nossa Missão</h1>
+            <p class="txt-introdutivo">Amigos da Rua é uma organização sem fins lucrativos dedicada a salvar animais de
+                rua e encontrar para eles
+                um lar amoroso.
+                Nosso objetivo é proporcionar um ambiente seguro e saudável para esses animais enquanto trabalhamos para
+                mudar a mentalidade das pessoas sobre a adoção de animais.
+                Acreditamos que todos os animais merecem uma chance de ter um lar amoroso, e estamos comprometidos em
+                fazer
+                a diferença em suas vidas.</p>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block">
+                <img class="img-fluid" src="../assets/img/SOBRE/blob-part3.png">
+
+            </div>
+
+        </section>
 
     </main>
 
-    <footer>
-        <div class="footer container-fluid text-white text-center ">
-            <div class=" row">
-                <div class="col-md-6 mt-3 ">
-                    <a href="./view/home.html" class="link-light text-decoration-none ">HOME</a>
-                    <a href="pets.html" class="link-light text-decoration-none">PETS</a>
-                    <a href="sobre.html" class="link-light text-decoration-none">SOBRE</a>
-                </div>
+    <footer class="footer container-fluid text-white text-center">
 
-                <div class="col-md-6 align-itens-center mt-3">
-                    <a><i class="bi bi-facebook"></i></a>
-                    <a><i class="bi bi-instagram"></i></a>
-                    <a><i class="bi bi-whatsapp"></i></a>
-                </div>
+        <div class=" row">
+            <div class="col-md mb-2 d-flex gap-5 justify-content-center txt-introdutivo">
+                <a href="home.html" class="text-decoration-none" style="color:#EAD3B2">HOME</a>
+                <a href="../pets.html" class="text-decoration-none" style="color:#EAD3B2">PETS</a>
+                <a href="../sobre.html" class=" text-decoration-none" style="color:#EAD3B2">SOBRE</a>
+
+            </div>
+            <div class="col-1">
+                <div class="vr"></div>
+
+            </div>
+            <div class="col-md d-flex gap-5 justify-content-center ">
+                <a><i class="bi icon bi-facebook" style="color:#EAD3B2"></i></a>
+                <a><i class="bi icon bi-instagram" style="color:#EAD3B2"></i></a>
+                <a><i class="bi icon bi-whatsapp" style="color:#EAD3B2"></i></a>
             </div>
         </div>
+
     </footer>
 </body>
 
