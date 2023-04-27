@@ -1,0 +1,27 @@
+.FormCadastro{
+    width: 800px; 
+    border-top-left-radius: 25% 60% !important;
+   
+}
+#inputCadastro{
+    margin-right: 5%;
+}
+
+.inputCadastro input{
+    background-color: #D9A273;
+    border: none;
+}
+@media only screen and (max-width: 770px) {
+    .FormCadastro {
+        border-top-left-radius: 0% !important;
+        border-radius: 35px !important;
+       align-items: center;
+       padding: 10%;
+       margin: 0px;
+        
+    }
+    .inputCadastro{
+        margin-right: OPX !important;
+    }
+
+}
