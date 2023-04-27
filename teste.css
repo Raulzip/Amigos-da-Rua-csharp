@@ -1,27 +1,57 @@
-.FormCadastro{
-    width: 800px; 
-    border-top-left-radius: 25% 60% !important;
-   
+.FormCadastro {
+    width: 800px;
+    border-radius: 160px 35px 35px 0px !important;
 }
-#inputCadastro{
+
+#inputCadastro {
     margin-right: 5%;
 }
 
-.inputCadastro input{
+.inputCadastro input {
     background-color: #D9A273;
     border: none;
 }
-@media only screen and (max-width: 770px) {
+
+@media only screen and (max-width: 767px) {
     .FormCadastro {
         border-top-left-radius: 0% !important;
         border-radius: 35px !important;
-       align-items: center;
-       padding: 10%;
-       margin: 0px;
-        
-    }
-    .inputCadastro{
-        margin-right: OPX !important;
+        align-items: center;
+        padding: 10%;
+        margin: 0px;
+
     }
 
+    .inputCadastro {
+        margin-right: 0px !important;
+    }
+}
+
+.FormLogin {
+    width: 880px;
+    border-radius: 200px 35px 35px 0px !important;
+}
+
+#inputLogin {
+    margin-right: 5%;
+}
+
+.inputLogin input {
+    background-color: #EAD3B2;
+    border: none;
+
+}
+
+@media only screen and (max-width: 767px) {
+    .FormLogin {
+        border-top-left-radius: 0% !important;
+        border-radius: 35px !important;
+        align-items: center;
+        padding: 10%;
+        margin: 0px;
+    }
+
+    .inputLogin {
+        margin-right: 0px !important;
+    }
 }
