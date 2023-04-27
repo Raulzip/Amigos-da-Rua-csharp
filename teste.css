@@ -1,6 +1,6 @@
 .FormCadastro {
     width: 800px;
-    border-radius: 160px 35px 35px 0px !important;
+    border-top-left-radius: 25% 60% !important;
 }
 
 #inputCadastro {
@@ -29,7 +29,8 @@
 
 .FormLogin {
     width: 880px;
-    border-radius: 200px 35px 35px 0px !important;
+    border-top-left-radius: 25% 60% !important;
+    border-radius: 48px;
 }
 
 #inputLogin {
