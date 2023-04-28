@@ -1,0 +1,36 @@
+.Quad-Pai {
+    z-index: 5;
+     height: 416px;
+     left: 27%;
+      border-top-left-radius: 25%;
+        border-top-right-radius: 25% ;
+          background-color: #D9A273;
+          transition: all 0.2s;
+  }
+  @media screen and (max-width: 1450px) {
+    .Quad-Pai {
+      left: 25%;
+    }
+  }
+  @media screen and (max-width: 1302px) {
+    .Quad-Pai {
+      left: 23%;
+    }
+  }
+  @media screen and (max-width: 1126px) {
+    .Quad-Pai {
+      left: 21%;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .Quad-Pai {
+      left: 19%;
+    }
+  }
+
+  footer {
+    background-color: #262526;
+    min-height: 50px;
+    padding: 18px;
+    align-items: center !important ;
+} 
