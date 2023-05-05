@@ -54,23 +54,23 @@
             </div>
             <div class="mb-2 text-center text-md-start">
               <label for="name" class="form-label ms-md-3">Nome</label>
-              <input type="text" class="form-control rounded-5" style="background-color: #D9A273; border: none;">
+              <abbr class="initialism" title="Ex: Rosana Santos Vieira"><input type="text" id="NomeCad" class="form-control rounded-5" placeholder="Qual o seu nome?" style="background-color: #D9A273; border: none;"></abbr>
             </div>
             <div class="mb-2 pt-2 text-center text-md-start">
               <label for="email" class="form-label ms-md-3"> Endereço de e-mail</label>
-              <input type="email" class="form-control rounded-5" style="background-color: #D9A273; border: none;">
+            <abbr class="initialism" title="Ex: exemplo@gmail.com"><input type="email" id="EmailCad" class="form-control rounded-5" placeholder="Digite seu e-mail aqui." style="background-color: #D9A273; border: none;"></abbr>
             </div>
           <div class="row mb-3">
             <div class="mb-3 col-6 text-center text-md-start">
               <label for="senha" class="form-label ms-md-3"> Senha</label>
-              <input type="password" class="form-control rounded-5" style="background-color: #D9A273; border: none;">
+              <abbr class="initialism" title="Ex: 123Exemplo321"><input type="password" id="SenhaCad" class="form-control rounded-5" placeholder="Digite sua senha." style="background-color: #D9A273; border: none;"></abbr>
             </div>
             <div class="mb-3 col-6 text-center text-md-start">
               <label for="senha" class="form-label ms-md-3"> Confirmar</label>
-              <input type="password" class="form-control rounded-5" style="background-color: #D9A273; border: none;">
+              <input type="password" id="ConSenhaCad" class="form-control rounded-5" placeholder="Confirme sua senha." style="background-color: #D9A273; border: none;">
             </div>
             <div class="pb-4 mt-1 d-flex justify-content-center justify-content-md-end">
-                <button type="button" class="btn btn-lg rounded-5 fs-6" style="background-color: #D9A273; border: none;">Entrar</button>
+                <button onclick="verificarCampos()" type="button" id="BotaoCad" class="btn btn-lg rounded-5 fs-6" data-bs-toggle="modal" data-bs-target="" style="background-color: #D9A273; border: none;">Entrar</button>
               </div>
           </div>
           </div>
@@ -80,6 +80,40 @@
           </div>
         </div>
     </section>
+
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Cadastrado com Sucesso!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Cadastro efetuado com sucesso, obrigado pela paciência, Bem-vindo ao nosso site!
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn rounded-5" style="background-color: #D9A273">Vamos nessa!</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="staticBackdropErr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Algo está errado!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Verifique se você colocou corretamente todas as informações! 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn rounded-5" data-bs-toggle="modal" style="background-color: #D9A273">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <footer class="footer fixed-bottom container-fluid text-white text-center">
@@ -119,6 +153,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
   integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
   </script>
+  <script src="../assets/js/script.js"></script>
   
 </body>
 </html>

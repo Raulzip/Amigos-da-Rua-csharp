@@ -43,6 +43,9 @@
     }
   }
 
+  abbr{
+    text-decoration: none!important;
+  }
   
 
   footer {
