@@ -7,136 +7,151 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Register</title>
   <link rel="stylesheet" href="../assets/css/styleCadastroReg.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 </head>
 
 <body style="background-color: #F7F3EA;">
 
   <nav id="nabarzinho" class="navbar navbar-expand-sm shadow fixed-top" style="background-color: #F7F3EA;">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler me-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
 
-                <li class="nav-item ms-5 me-5">
-                    <a class="nav-link active text-center" aria-current="page" href="/view/home.html">HOME</a>
-                </li>
+          <li class="nav-item ms-5 me-5">
+            <a class="nav-link active text-center" aria-current="page" href="/view/home.html">HOME</a>
+          </li>
 
-                <li class="nav-item ms-5 me-5">
-                    <a class="nav-link active text-center" href="/view/pets.html">PETS</a>
-                </li>
+          <li class="nav-item ms-5 me-5">
+            <a class="nav-link active text-center" href="/view/pets.html">PETS</a>
+          </li>
 
-                <li class="nav-item ms-5 me-5">
-                    <a class="nav-link active text-center" href="/view/sobre.html">SOBRE</a>
-                </li>
-            </ul>
-        </div>
+          <li class="nav-item ms-5 me-5">
+            <a class="nav-link active text-center" href="/view/sobre.html">SOBRE</a>
+          </li>
+        </ul>
+      </div>
     </div>
-</nav>
+  </nav>
 
-<section class="d-flex min-vh-100 justify-content-center align-items-center">
+  <section class="d-flex min-vh-100 justify-content-center align-items-center">
     <div class="container">
       <div class="row">
-        <div class=" Quad-Pai d-none d-sm-none d-md-none d-lg-block img-container text-center position-absolute" id="QuadPai" style="width: 280px;">
-          <img class="img-fluid h-100 w-100 d-none d-sm-none d-md-block " src="../assets/img/CADASTRO/doguitosimg.png" alt="">
+        <div class=" Quad-Pai d-none d-sm-none d-md-none d-lg-block img-container text-center position-absolute"
+          id="QuadPai" style="width: 280px;">
+          <img class="img-fluid h-100 w-100 d-none d-sm-none d-md-block " src="../assets/img/CADASTRO/doguitosimg.png"
+            alt="">
         </div>
         <div class="col-2 d-none d-sm-none d-md-none d-lg-block"></div>
         <div class="col-11 col-sm-10 col-md-10 col-lg-7 mx-auto d-flex d-sm-flex justify-content-center">
-          <div class="mt-lg-3 col-12 col-sm-12 col-lg-8 col-md-9 d-flex d-sm-flex justify-content-center border border-dark-subtle rounded-4">
-          <div class="col-11 col-md-10 col-sm-10 ps-lg-5">
-            <div class="pt-4 text-center text-md-start">
-              <p class="fw-b fs-5">CADASTRAR-SE</p>
-            </div>
-            <div class="mb-2 text-center text-md-start">
-              <label for="name" class="form-label ms-md-3">Nome</label>
-              <abbr class="initialism" title="Ex: Rosana Santos Vieira"><input type="text" id="NomeCad" class="form-control rounded-5" placeholder="Qual o seu nome?" style="background-color: #D9A273; border: none;"></abbr>
-            </div>
-            <div class="mb-2 pt-2 text-center text-md-start">
-              <label for="email" class="form-label ms-md-3"> Endereço de e-mail</label>
-            <abbr class="initialism" title="Ex: exemplo@gmail.com"><input type="email" id="EmailCad" class="form-control rounded-5" placeholder="Digite seu e-mail aqui." style="background-color: #D9A273; border: none;"></abbr>
-            </div>
-          <div class="row mb-3">
-            <div class="mb-3 col-6 text-center text-md-start">
-              <label for="senha" class="form-label ms-md-3"> Senha</label>
-              <abbr class="initialism" title="Ex: 123Exemplo321"><input type="password" id="SenhaCad" class="form-control rounded-5" placeholder="Digite sua senha." style="background-color: #D9A273; border: none;"></abbr>
-            </div>
-            <div class="mb-3 col-6 text-center text-md-start">
-              <label for="senha" class="form-label ms-md-3"> Confirmar</label>
-              <input type="password" id="ConSenhaCad" class="form-control rounded-5" placeholder="Confirme sua senha." style="background-color: #D9A273; border: none;">
-            </div>
-            <div class="pb-4 mt-1 d-flex justify-content-center justify-content-md-end">
-                <button onclick="verificarCampos()" type="button" id="BotaoCad" class="btn btn-lg rounded-5 fs-6" data-bs-toggle="modal" data-bs-target="" style="background-color: #D9A273; border: none;">Entrar</button>
+          <div
+            class="mt-lg-3 col-12 col-sm-12 col-lg-8 col-md-9 d-flex d-sm-flex justify-content-center border border-dark-subtle rounded-4">
+            <div class="col-11 col-md-10 col-sm-10 ps-lg-5">
+              <div class="pt-4 text-center text-md-start">
+                <p class="fw-b fs-5">CADASTRAR-SE</p>
               </div>
-          </div>
-          </div>
-          
+              <div class="mb-2 text-center text-md-start">
+                <label for="name" class="form-label ms-md-3">Nome</label>
+                <abbr class="initialism" title="Ex: Rosana Santos Vieira"><input type="text" id="NomeCad"
+                    class="form-control rounded-5" placeholder="Qual o seu nome?"
+                    style="background-color: #D9A273; border: none;"></abbr>
+              </div>
+              <div class="mb-2 pt-2 text-center text-md-start">
+                <label for="email" class="form-label ms-md-3"> Endereço de e-mail</label>
+                <abbr class="initialism" title="Ex: exemplo@gmail.com"><input type="email" id="EmailCad"
+                    class="form-control rounded-5" placeholder="Digite seu e-mail aqui."
+                    style="background-color: #D9A273; border: none;"></abbr>
+              </div>
+              <div class="row mb-3">
+                <div class="mb-3 col-6 text-center text-md-start">
+                  <label for="senha" class="form-label ms-md-3"> Senha</label>
+                  <abbr class="initialism" title="Ex: 123Exemplo321"><input type="password" id="SenhaCad"
+                      class="form-control rounded-5" placeholder="Digite sua senha."
+                      style="background-color: #D9A273; border: none;"></abbr>
+                </div>
+                <div class="mb-3 col-6 text-center text-md-start">
+                  <label for="senha" class="form-label ms-md-3"> Confirmar</label>
+                  <input type="password" id="ConSenhaCad" class="form-control rounded-5"
+                    placeholder="Confirme sua senha." style="background-color: #D9A273; border: none;">
+                </div>
+                <div class="pb-4 mt-1 d-flex justify-content-center justify-content-md-end">
+                  <button onclick="verificarCampos()" type="button" id="BotaoCad" class="btn btn-lg rounded-5 fs-6"
+                    data-bs-toggle="modal" data-bs-target=""
+                    style="background-color: #D9A273; border: none;">Entrar</button>
+                </div>
+              </div>
             </div>
-            </div>
-          </div>
-        </div>
-    </section>
 
-    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Cadastrado com Sucesso!</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Cadastro efetuado com sucesso, obrigado pela paciência, Bem-vindo ao nosso site!
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn rounded-5" style="background-color: #D9A273">Vamos nessa!</button>
           </div>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="modal fade" id="staticBackdropErr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h1 class="modal-title fs-5" id="staticBackdropLabel">Algo está errado!</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            Verifique se você colocou corretamente todas as informações! 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn rounded-5" data-bs-toggle="modal" style="background-color: #D9A273">Ok</button>
-          </div>
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Cadastrado com Sucesso!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Cadastro efetuado com sucesso, obrigado pela paciência, Bem-vindo ao nosso site!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn rounded-5" style="background-color: #D9A273">Vamos nessa!</button>
         </div>
       </div>
     </div>
+  </div>
 
-
-    <footer class="footer fixed-bottom container-fluid text-white text-center">
-
-      <div class="row">
-          <div class="col-md d-flex d-md-flex gap-5 justify-content-center txt-introdutivo d-none d-sm-none d-md-block">
-              <a href="../view/home.html" class="text-decoration-none" style="color:#EAD3B2">HOME</a>
-              <a href="../view/pets.html" class="text-decoration-none" style="color:#EAD3B2">PETS</a>
-              <a href="../view/sobre.html" class=" text-decoration-none" style="color:#EAD3B2">SOBRE</a>
-
-          </div>
-          <div class="col-1 d-none d-sm-none d-md-block">
-              <div class="vr h-100"></div>
-          </div>
-          <div class="col-md d-flex gap-5 justify-content-center">
-              <a><i class="bi icon bi-facebook" style="color:#EAD3B2"></i></a>
-              <a><i class="bi icon bi-instagram" style="color:#EAD3B2"></i></a>
-              <a><i class="bi icon bi-whatsapp" style="color:#EAD3B2"></i></a>
-          </div>
+  <div class="modal fade" id="staticBackdropErr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Algo está errado!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Verifique se você colocou corretamente todas as informações!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn rounded-5" data-bs-toggle="modal"
+            style="background-color: #D9A273">Ok</button>
+        </div>
       </div>
+    </div>
+  </div>
+
+
+  <footer class="footer fixed-bottom container-fluid text-white text-center">
+
+    <div class="row">
+      <div class="col-md d-flex d-md-flex gap-5 justify-content-center txt-introdutivo d-none d-sm-none d-md-block">
+        <a href="../view/home.html" class="text-decoration-none" style="color:#EAD3B2">HOME</a>
+        <a href="../view/pets.html" class="text-decoration-none" style="color:#EAD3B2">PETS</a>
+        <a href="../view/sobre.html" class=" text-decoration-none" style="color:#EAD3B2">SOBRE</a>
+
+      </div>
+      <div class="col-1 d-none d-sm-none d-md-block">
+        <div class="vr h-100"></div>
+      </div>
+      <div class="col-md d-flex gap-5 justify-content-center">
+        <a><i class="bi icon bi-facebook" style="color:#EAD3B2"></i></a>
+        <a><i class="bi icon bi-instagram" style="color:#EAD3B2"></i></a>
+        <a><i class="bi icon bi-whatsapp" style="color:#EAD3B2"></i></a>
+      </div>
+    </div>
 
   </footer>
-  
 
 
 
@@ -148,12 +163,16 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
   <script src="../assets/js/script.js"></script>
-  
+
 </body>
+
 </html>

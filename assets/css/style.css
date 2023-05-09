@@ -47,6 +47,17 @@ a {
     padding-top: 12%;
 }
 
+.titulo{
+    font-weight: 800;
+    padding-top: 10%;
+    margin-left: 10%;
+}
+
+.img-banner{
+    width: 40%; 
+    margin-left: 450px;
+}
+
 .txt-conteudo {
     font-weight: 400;
 
