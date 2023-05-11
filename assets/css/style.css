@@ -116,6 +116,14 @@ footer {
     border-radius: 0px 0px 100px 100px;
 
 }
+.image-frame {
+    width: 70%; /* largura da imagem */
+    height: 70%; /* altura da imagem */
+    background-image: url("/assets/img/PETS/pluto.jpg"); /* define a imagem de fundo da div */
+    background-size: cover; /* dimensiona a imagem de fundo para cobrir toda a div */
+    background-position: center; /* alinha a imagem de fundo no centro da div */
+    border: 2px solid black; /* adiciona uma borda de 2px à volta da div */
+  }
 
 /* ::-webkit-scrollbar {
     width: 10px;
