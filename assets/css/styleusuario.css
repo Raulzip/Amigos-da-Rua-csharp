@@ -1,0 +1,15 @@
+footer {
+    background-color: #262526;
+    min-height: 50px;
+    padding: 18px;
+    align-items: center !important ;
+} 
+
+.icon::before{
+    font-size: 20px;
+}
+
+
+.a-do-footer > a{
+    color:#EAD3B2!important;
+}
