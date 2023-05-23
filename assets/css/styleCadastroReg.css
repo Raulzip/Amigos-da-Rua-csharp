@@ -75,3 +75,7 @@
     left: 24%;
   }
 }
+
+.icon::before{
+  font-size: 20px;
+}
