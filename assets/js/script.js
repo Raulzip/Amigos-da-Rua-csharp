@@ -18,3 +18,5 @@ Nome.addEventListener("input", verificarCampos)
 Email.addEventListener("input", verificarCampos)
 Senha.addEventListener("input", verificarCampos)
 ConSenha.addEventListener("input", verificarCampos)
+
+
